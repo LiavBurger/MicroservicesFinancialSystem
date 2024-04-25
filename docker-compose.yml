@@ -3,7 +3,7 @@ services:
     container_name: postgres
     image: postgres
     environment:
-      POSTGRES_USER: amigoscode
+      POSTGRES_USER: liavb
       POSTGRES_PASSWORD: password
       PGDATA: /data/postgres
     volumes:
@@ -14,7 +14,7 @@ services:
       - postgres
     restart: unless-stopped
     healthcheck:
-      test: [ "CMD-SHELL", "pg_isready -U amigoscode" ]
+      test: [ "CMD-SHELL", "pg_isready -U liavb" ]
       interval: 10s
       timeout: 10s
       retries: 5

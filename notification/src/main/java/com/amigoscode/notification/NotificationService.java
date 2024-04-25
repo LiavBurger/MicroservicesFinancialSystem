@@ -1,6 +1,6 @@
 package com.amigoscode.notification;
 
-import com.amigoscode.clients.notification.NotificationRequest;
+import com.liavb.clients.notification.NotificationRequest;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

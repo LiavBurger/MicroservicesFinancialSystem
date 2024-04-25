@@ -1,6 +1,6 @@
 package com.amigoscode.notification.rabbitmq;
 
-import com.amigoscode.clients.notification.NotificationRequest;
+import com.liavb.clients.notification.NotificationRequest;
 import com.amigoscode.notification.NotificationService;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
